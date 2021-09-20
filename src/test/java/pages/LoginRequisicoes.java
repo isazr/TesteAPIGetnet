@@ -1,8 +1,9 @@
 package pages;
 
 import org.json.simple.JSONObject;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -14,10 +15,15 @@ import response.Esperado;
 public class LoginRequisicoes {
 	Esperado responseEsperado = new Esperado();
 	String url = "https://reqres.in/api/login";
+	
+	@BeforeMethod
+	public void acessoAPI(){
+		System.out.println("Acessando a API ");
+		RestAssured.baseURI = url;
+	}
 
 	@Test
 	public void sucessoLogin() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 
@@ -44,7 +50,6 @@ public class LoginRequisicoes {
 	
 	@Test
 	public void insucessoLoginSenha() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 
@@ -70,7 +75,6 @@ public class LoginRequisicoes {
 	
 	@Test
 	public void insucessoLoginUsuario() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 
@@ -95,7 +99,6 @@ public class LoginRequisicoes {
 	
 	@Test
 	public void loginSenhaIncorreta() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 

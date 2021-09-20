@@ -1,8 +1,11 @@
 package pages;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import org.json.simple.JSONObject;
-import org.junit.Assert;
-import org.junit.Test;
+
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -14,11 +17,16 @@ import response.Esperado;
 public class UsuariosRequisicoes {
 	Esperado responseEsperado = new Esperado();
 	String url = "https://reqres.in/api/users";
+	
+	@BeforeMethod
+	public void acessoAPI(){
+		System.out.println("Acessando a API ");
+		RestAssured.baseURI = url;
+	}
 
 	@Test
 	public void validarListaUsuarios() {
 
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.request(Method.GET, "?page=2");
 
@@ -35,7 +43,6 @@ public class UsuariosRequisicoes {
 	
 	@Test
 	public void buscarUsuarioID() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.request(Method.GET, "2");
 
@@ -52,7 +59,6 @@ public class UsuariosRequisicoes {
 	
 	@Test
 	public void buscarUsuarioInexistente() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.request(Method.GET, "23");
 		
@@ -69,7 +75,6 @@ public class UsuariosRequisicoes {
 
 	@Test
 	public void criarUsuario() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		JSONObject parametro = new JSONObject();
@@ -93,7 +98,6 @@ public class UsuariosRequisicoes {
 
 	@Test
 	public void updateInfoUsuarioCompleto() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		JSONObject updateInfo = new JSONObject();
@@ -122,7 +126,6 @@ public class UsuariosRequisicoes {
 
 	@Test
 	public void updateInfoUsuario() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		JSONObject updateInfo = new JSONObject();
@@ -151,7 +154,6 @@ public class UsuariosRequisicoes {
 
 	@Test
 	public void deletarUsuario() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		Response response = httpRequest.request(Method.DELETE, "4");
@@ -168,7 +170,6 @@ public class UsuariosRequisicoes {
 	@Test
 	public void delayedResponse() {
 
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.request(Method.GET, "?delay=3");
 
@@ -185,7 +186,6 @@ public class UsuariosRequisicoes {
 
 	@Test
 	public void deletarUsuarioIDInexistente() {
-		RestAssured.baseURI = url;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		Response response = httpRequest.request(Method.DELETE, "56484");

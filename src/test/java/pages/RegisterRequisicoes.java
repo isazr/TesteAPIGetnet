@@ -1,8 +1,10 @@
 package pages;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import org.json.simple.JSONObject;
-import org.junit.Assert;
-import org.junit.Test;
+
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -14,11 +16,17 @@ import response.Esperado;
 public class RegisterRequisicoes {
 	Esperado responseEsperado = new Esperado();
 	String url = "https://reqres.in/api/register";
+	
+	@BeforeMethod
+	public void acessoAPI(){
+		System.out.println("Acessando a API ");
+		RestAssured.baseURI = url;
+	}
 
+	
 	@Test
 	public void sucessoRegistroUsuario() {
-		RestAssured.baseURI = url;
-
+		
 		RequestSpecification httpRequest = RestAssured.given();
 
 		JSONObject parametro = new JSONObject();
@@ -46,7 +54,6 @@ public class RegisterRequisicoes {
 	
 	@Test
 	public void insucessoRegistroUsuario() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 
@@ -71,7 +78,6 @@ public class RegisterRequisicoes {
 	
 	@Test
 	public void registroUsuarioEmailIncorreto() {
-		RestAssured.baseURI = url;
 
 		RequestSpecification httpRequest = RestAssured.given();
 

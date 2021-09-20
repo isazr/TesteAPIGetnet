@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14129" started-at="2021-09-20T18:26:19Z" finished-at="2021-09-20T18:26:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14129" started-at="2021-09-20T18:26:19Z" finished-at="2021-09-20T18:26:33Z">
+      <class name="pages.UsuariosRequisicoes">
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="529" started-at="2021-09-20T15:26:19Z" finished-at="2021-09-20T15:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="buscarUsuarioID()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="buscarUsuarioID" duration-ms="1846" started-at="2021-09-20T15:26:20Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarUsuarioID -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="1" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="buscarUsuarioInexistente()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="buscarUsuarioInexistente" duration-ms="90" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarUsuarioInexistente -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="criarUsuario()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="criarUsuario" duration-ms="585" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criarUsuario -->
+        <test-method status="PASS" signature="delayedResponse()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="delayedResponse" duration-ms="3585" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayedResponse -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:22Z" finished-at="2021-09-20T15:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:26Z" finished-at="2021-09-20T15:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="deletarUsuario()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="deletarUsuario" duration-ms="654" started-at="2021-09-20T15:26:26Z" finished-at="2021-09-20T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletarUsuario -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:27Z" finished-at="2021-09-20T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="deletarUsuarioIDInexistente()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="deletarUsuarioIDInexistente" duration-ms="559" started-at="2021-09-20T15:26:27Z" finished-at="2021-09-20T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletarUsuarioIDInexistente -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="15" started-at="2021-09-20T15:26:27Z" finished-at="2021-09-20T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="updateInfoUsuario()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="updateInfoUsuario" duration-ms="1288" started-at="2021-09-20T15:26:27Z" finished-at="2021-09-20T15:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateInfoUsuario -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="1" started-at="2021-09-20T15:26:28Z" finished-at="2021-09-20T15:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="updateInfoUsuarioCompleto()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="updateInfoUsuarioCompleto" duration-ms="547" started-at="2021-09-20T15:26:28Z" finished-at="2021-09-20T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateInfoUsuarioCompleto -->
+        <test-method status="PASS" signature="validarListaUsuarios()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="validarListaUsuarios" duration-ms="129" started-at="2021-09-20T15:26:29Z" finished-at="2021-09-20T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarListaUsuarios -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.UsuariosRequisicoes@6ad5c04e]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:29Z" finished-at="2021-09-20T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+      </class> <!-- pages.UsuariosRequisicoes -->
+      <class name="pages.RegisterRequisicoes">
+        <test-method status="PASS" signature="insucessoRegistroUsuario()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="insucessoRegistroUsuario" duration-ms="613" started-at="2021-09-20T15:26:31Z" finished-at="2021-09-20T15:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insucessoRegistroUsuario -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:31Z" finished-at="2021-09-20T15:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="acessoAPI" is-config="true" duration-ms="1" started-at="2021-09-20T15:26:32Z" finished-at="2021-09-20T15:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="registroUsuarioEmailIncorreto()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="registroUsuarioEmailIncorreto" duration-ms="644" started-at="2021-09-20T15:26:32Z" finished-at="2021-09-20T15:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registroUsuarioEmailIncorreto -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:33Z" finished-at="2021-09-20T15:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="sucessoRegistroUsuario()[pri:0, instance:pages.RegisterRequisicoes@725bef66]" name="sucessoRegistroUsuario" duration-ms="692" started-at="2021-09-20T15:26:33Z" finished-at="2021-09-20T15:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessoRegistroUsuario -->
+      </class> <!-- pages.RegisterRequisicoes -->
+      <class name="pages.LoginRequisicoes">
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:29Z" finished-at="2021-09-20T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="insucessoLoginSenha()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="insucessoLoginSenha" duration-ms="595" started-at="2021-09-20T15:26:29Z" finished-at="2021-09-20T15:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insucessoLoginSenha -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:30Z" finished-at="2021-09-20T15:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="insucessoLoginUsuario()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="insucessoLoginUsuario" duration-ms="565" started-at="2021-09-20T15:26:30Z" finished-at="2021-09-20T15:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insucessoLoginUsuario -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="acessoAPI" is-config="true" duration-ms="1" started-at="2021-09-20T15:26:30Z" finished-at="2021-09-20T15:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+        <test-method status="PASS" signature="loginSenhaIncorreta()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="loginSenhaIncorreta" duration-ms="549" started-at="2021-09-20T15:26:30Z" finished-at="2021-09-20T15:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSenhaIncorreta -->
+        <test-method status="PASS" signature="sucessoLogin()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="sucessoLogin" duration-ms="564" started-at="2021-09-20T15:26:31Z" finished-at="2021-09-20T15:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessoLogin -->
+        <test-method status="PASS" signature="acessoAPI()[pri:0, instance:pages.LoginRequisicoes@6833ce2c]" name="acessoAPI" is-config="true" duration-ms="0" started-at="2021-09-20T15:26:31Z" finished-at="2021-09-20T15:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acessoAPI -->
+      </class> <!-- pages.LoginRequisicoes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
